@@ -1,8 +1,49 @@
 # GrowEasy CSV Importer
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI%20mapping-8E75B2?logo=googlegemini&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
 An AI-powered CSV importer built for the GrowEasy Software Developer assignment. Upload a CSV
 in **any** layout — Facebook Lead Ads exports, Google Ads exports, hand-built spreadsheets,
 other CRM exports — and the AI maps whatever columns it finds into GrowEasy's fixed CRM schema.
+
+## Tech stack
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/-Google%20Gemini%20API-8E75B2?logo=googlegemini&logoColor=white)
+![csv-parse](https://img.shields.io/badge/-csv--parse%20%2F%20csv--stringify-000000?logo=csv&logoColor=white)
+![Multer](https://img.shields.io/badge/-Multer%20(uploads)-000000)
+
+</td>
+<td valign="top" width="50%">
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![PapaParse](https://img.shields.io/badge/-PapaParse-6DB33F)
+![Lucide](https://img.shields.io/badge/-lucide--react-F56565)
+
+</td>
+</tr>
+</table>
+
+**DevOps:** ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/-Docker%20Compose-2496ED?logo=docker&logoColor=white)
 
 ```
 groweasy-csv-importer/
@@ -12,6 +53,8 @@ groweasy-csv-importer/
 ```
 
 ## How it works
+
+![Next.js](https://img.shields.io/badge/Upload-Next.js%20UI-000000?logo=next.js&logoColor=white) → ![PapaParse](https://img.shields.io/badge/Preview-PapaParse-6DB33F) → ![Express](https://img.shields.io/badge/Parse-Express-000000?logo=express&logoColor=white) → ![Gemini](https://img.shields.io/badge/Map%20Fields-Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white) → ![Validate](https://img.shields.io/badge/Validate-Server--side-informational) → ![Result](https://img.shields.io/badge/Import-CRM%20Schema-success)
 
 1. **Upload** — drag a CSV onto the page, or pick a file.
 2. **Preview** — the browser parses the file locally (no AI, no network call yet) and shows it
